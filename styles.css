@@ -403,23 +403,22 @@ footer>div>p{
 	}
 
 	.contact{
-		/*background-color: #F1F1F1;*/
 		display: flex;
 		flex-direction:row;
-		/*flex-direction:column;*/
 		flex:0 0 content;
-		/*justify-content:center;*/
-		/*padding-bottom: 2em;
-		text-align: center;*/
 	}
 
 	.address, .phoneNum, .form{
-		background-color: white;
 		flex: 1 0 20%;
 		margin:2em 2em 0 0;
-		/*width:15em;*/
-		border: thin #4FCEAD solid;
-		box-shadow: 0.2em 0 0.5em gray;
+	}
+
+	.address{
+		margin-left: 2em;
+	}
+
+	#comment{
+		width: 10em;
 	}
 
 }
