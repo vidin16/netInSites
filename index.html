@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>NetInSites</title>
+	<link rel="stylesheet" href="styles.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+</head>
+<body>
+
+	<header>
+		<div id="logo"><img src="img/logo.jpg"></div>
+
+		<div id="bars"><i class="fa fa-bars fa-2x"></i></div>
+
+		<ul id="nav">
+			<li><a href="">HOME</a></li>
+			<li><a href="">OUR WORK</a></li>
+			<li><a href="">SERVICES</a></li>
+			<li><a href="">BLOG</a></li>
+			<li><a href="">CONTACT US</a></li>
+		</ul>	
+	</header>
+
+	<main>
+		<div class="mainImage"></div>
+
+		<div class="about">
+			<p><mark>NETinSITES</mark> are a web design company<br> based in Auckland, New Zealand.<br><br> We primarily serve small to medium size companies and have a practical,<br> commonsense view of how the Internet can help you.</p>
+		</div>
+
+		<div class="services">
+			<div id="heading"><h1>OUR SERVICES</h1></div>
+			<div id="web"><a href=""><img src="img/web2.jpg"></a><h1>WEB DEVELOPEMENT</h1></div>
+			<div id="marketing"><a href=""><img src="img/marketing2.jpg"></a><h1>MARKETING</h1></div>
+			<div id="consult"><a href=""><img src="img/consult2.jpg"></a><h1>CONSULT</h1></div>
+			<div id="commerse"><a href=""><img src="img/commerse2.jpg"></a><h1>COMMERCE</h1></div>
+		</div>
+		<div class="work"><h1>OUR WORK</h1>
+			<div class="work1"><p>Learning Planet</p>
+				<div id="content">
+					<a href=""><img src="img/work1.jpg" alt=""></a>
+					<!-- <p>Platform: Silverstripe<br> Strategy: Netinsites<br> Design: Netinsites/Graphic<br> Edge Implementation: Netinsites</p> -->
+				</div>
+
+			</div>
+				
+				<a id="button" href="">View Website</a>
+		</div>
+
+		<div class="work">
+			<div class="work2"><p>Deep Blue Health</p>
+				<div id="content">
+					<a href=""><img src="img/work2.jpg" alt=""></a>
+					<!-- <p>Platform: OpenCart<br> Strategy: Netinsites<br> Design: Deep Blue Health/Netinsites<br> Implementation: Netinsites</p> -->
+				</div>
+			</div>
+				<a id="button" href="">View Website</a>
+		</div>
+
+		<div class="work">
+			<div class="work3"><p> Rotary Youth Exchange</p>
+				<div id="content">
+					<a href=""><img src="img/work3.jpg" alt=""></a>
+					<!-- <p>Platform: Silverstripe<br> Strategy: Netinsites<br> Design: Netinsites/Graphic Edge<br> 
+						Implementation: Netinsites</p> -->
+				</div>
+			</div>
+			<a id="button" href="">View Website</a>
+		</div>
+
+		<div class="contact">
+			<div class="address">
+				<i class="fa fa-map-marker fa-4x"></i>
+				<h1>ADDRESS</h1>
+				<p>81 Westerham Drive,<br> Dannemora,<br> Auckland,<br>NEW ZEALAND</p>
+			</div>
+			<div class="phoneNum"><i class="fa fa-phone fa-4x"></i>
+				<h1>PHONE</h1>
+				<p>Alex Garden<br> Phone: 64 9 273 6094<br> Mobile: 64 21 676 965<br><br>
+					Natalie Pike<br>Mobile: 64 21 495 766</p>
+			</div>
+			<div class="form">
+				<i class="fa fa-envelope-o fa-4x"></i>
+				<h1>EMAIL</h1>
+				<form>
+				    
+				        <div class="pure-control-group">
+				            <label for="name">Name</label>
+				            <input id="name" type="text" placeholder="Name">
+				        </div>
+
+				        <div class="pure-control-group">
+				            <label for="phoneNumber">Phone</label>
+				            <input id="phoneNumber" type="text" placeholder="Phone Number">
+				        </div>
+
+				        <div class="pure-control-group">
+				            <label for="email">Email</label>
+				            <input id="email" type="email" placeholder="Email Address">
+				        </div>
+
+				        <div class="pure-control-group">
+				            <label for="comment">Comment</label>
+				            <textarea id="comment" type="text" placeholder="Comment"></textarea>
+				        </div>
+				        <div>
+				            <button type="submit" class="pure-button pure-button-primary">Submit</button>
+				        </div>
+				   
+				</form>
+			</div>
+		</div>
+	</main>
+
+	<footer>
+		<div>
+			<p>© Netinsites 2015 </p>	
+		</div>
+	</footer>
+
+	<script type="text/javascript">
+	var bars = document.querySelector("#bars");
+	var nav = document.querySelector("#nav");
+
+	bars.onclick = function(){
+		if(nav.className == ""){
+			nav.className = "show";
+		}else{
+			nav.className = "";
+		}
+	}
+	</script>
+
+
+</body>
+</html>
